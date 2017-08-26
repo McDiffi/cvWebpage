@@ -1,0 +1,40 @@
+body {
+    margin: 0 auto;
+    header {
+        background: url('../img/header-bg.jpg') fixed center;
+        background-size: cover;
+
+        nav {
+            .logo-img {
+                max-height: 50px;
+            }
+
+            ul {
+                border-bottom: 2px solid rgba(255,255,255, 0.8);
+
+                li {
+                    padding: 10px 20px;
+                    margin-left: 40px;
+                    a {
+                        color: white !important;
+                    }
+                }
+                li:hover {
+                    background: rgba(81,45,168, 0.4);
+                    transition: 1s;
+                }
+            }
+        }
+        .carousel-inner {
+            .carousel-item {
+                img {
+                    max-height: 200px;
+                }
+                .carousel-caption {
+                    bottom: 0;
+                }
+            }
+        }
+    }
+    
+}
